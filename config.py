@@ -29,7 +29,7 @@ START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/119729ea3cdce4
 
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1276457970').split()]
 
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "10000")
 
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
